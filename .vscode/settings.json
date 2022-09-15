@@ -1,16 +1,16 @@
 {
     "code-runner.executorMap": {
         "cpp": "cd $dir && g++ \"$fileName\" -std=c++14 -O2 -o \"$fileNameWithoutExt\" && start cmd /c \"title \"$dir$fileNameWithoutExt\" && \"$dir$fileNameWithoutExt\" && pause > nul\" && exit",
-    },//这个不要改，毕竟连我都不知道是啥，除了编译选项
+    },
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "editor.insertSpaces": false,
     "explorer.confirmDelete": false,
-    "editor.fontFamily": "Fira Code",//字体
+    "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "cph.general.defaultLanguage": "cpp",
-    "cph.general.defaultLanguageTemplateFileLocation": "E:\\OI\\normal\\programs\\template.cpp",//把你的template.cpp路径写好！
-    "cph.language.cpp.Args": "-std=c++14 -O2",//cph编译选项，建议和上面一样
-    "files.autoSave": "afterDelay",//自动保存
+    "cph.general.defaultLanguageTemplateFileLocation": "E:\\OI\\normal\\programs\\template.cpp",
+    "cph.language.cpp.Args": "-std=c++14 -O2",
+    "files.autoSave": "afterDelay",
     "extensions.autoCheckUpdates": false,
     "code-runner.runInTerminal": true,
 }//感谢@fjy666!

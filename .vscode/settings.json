@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ \"$fileName\" -std=c++14 -O2 -o \"$fileNameWithoutExt\" && start cmd /c \"title \"$dir$fileNameWithoutExt\" && \"$dir$fileNameWithoutExt\" && pause > nul\" && exit",
+        "cpp": "cd $dir && g++ \"$fileName\" -std=c++17 -O2 -o \"$fileNameWithoutExt\" && start cmd /c \"title \"$dir$fileNameWithoutExt\" && \"$dir$fileNameWithoutExt\" && pause > nul\" && exit",
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "editor.insertSpaces": false,
@@ -8,8 +8,8 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "cph.general.defaultLanguage": "cpp",
-    "cph.general.defaultLanguageTemplateFileLocation": "E:\\OI\\normal\\programs\\template.cpp",
-    "cph.language.cpp.Args": "-std=c++14 -O2",
+    "cph.general.defaultLanguageTemplateFileLocation": "D:\\template.cpp",
+    "cph.language.cpp.Args": "-std=c++17 -O2",
     "files.autoSave": "afterDelay",
     "extensions.autoCheckUpdates": false,
     "code-runner.runInTerminal": true,

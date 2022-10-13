@@ -13,4 +13,5 @@
     "files.autoSave": "afterDelay",
     "extensions.autoCheckUpdates": false,
     "code-runner.runInTerminal": true,
+    "editor.fontSize": 20,
 }//感谢@fjy666!
